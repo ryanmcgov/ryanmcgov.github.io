@@ -1,0 +1,158 @@
+/**Main Body**/
+html {
+	box-sizing: border-box; 
+}
+
+*,
+*:before,
+*:after {
+  	box-sizing: inherit; 
+}
+
+html,
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 20px;
+	margin: 0;
+	height: 100%; 
+}
+
+.body-container {
+	min-width: 100%;
+	position: relative;
+}
+
+a {
+	text-decoration: none !important;
+}
+
+
+/**Header**/
+.header-container {
+	height: 650px;
+	position: relative;
+	background-image: url('../images/galaxy-bg.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+.header-nav {
+	position: relative;
+    	top: 100%;
+    	transform: translate(0, -100%);
+	margin: 0 auto;
+	width: 55%;
+}
+
+.header-nav > ul {
+	margin: 0;
+	padding: 10px 0;
+}
+
+.nav-item {
+	list-style-type: none;
+	display: inline-block;
+	padding: 0 2em;
+}
+
+.nav-item a {
+	font-family: 'Oswald', sans-serif;
+	font-size: 1.3em;
+	font-weight: 300;
+	color: #D3D3D3;
+	transition: .4s ease;
+}
+.nav-item a:hover {
+	color: #545454;
+}
+
+.title-block {
+	width: 25%;
+	height: 60%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.profile {
+	height: 156px;
+	width: 156px;
+	background-image: url("../images/tiy_profile.jpg");
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	margin: 5px auto 10px auto;
+}
+
+.name-title {
+	width: 75%;
+	margin: 5px auto;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 600;
+}
+
+.name-title h4{
+	margin-top: 0;
+}
+
+.name-title h1, h4{
+	color: #D3D3D3;
+	margin-bottom: 0;
+}
+
+.header-social-block {
+	width: 60%;
+	margin: 0 auto;
+}
+
+.header-social-icon {
+	margin: 0 auto;
+}
+
+.header-social-icon .fa {
+	width: 30px;
+	height: auto;
+	color: #FFF;
+	transition: .4s ease;
+}
+
+.fa-envelope:hover {
+	color: #CC4037;
+}
+
+.fa-linkedin:hover {
+	color: #3074AD;
+}
+
+.fa-github:hover {
+	color: #89C455;
+}
+
+
+
+/**Content**/
+.content-wrapper {
+	position: relative;
+}
+
+#about, #experience, #projects, #contact {
+	min-height: 300px;
+}
+
+#about {
+	background-color: red;
+}
+#experience {
+	background-color: blue;
+}
+#projects {
+	background-color: green;
+}
+#contact {
+	background-color: orange;
+}
