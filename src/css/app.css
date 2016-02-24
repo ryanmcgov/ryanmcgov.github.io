@@ -256,3 +256,15 @@ p > a {
 	width: 75%;
 	margin: 0 auto 0 0;
 }
+
+.hide-experience {
+	opacity: 0;
+}
+
+.hide-projects {
+	opacity: 0;
+}
+
+.hide-contact {
+	opacity: 0;
+}
