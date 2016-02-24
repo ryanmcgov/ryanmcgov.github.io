@@ -28,6 +28,10 @@ a {
 	text-decoration: none !important;
 }
 
+p > a {
+	color: #4A4747;
+}
+
 
 /**Header**/
 .header-container {
@@ -135,6 +139,14 @@ a {
 	color: #545454;
 }
 
+.fa-desktop:hover {
+	color: #545454;
+}
+
+.fa-stack-overflow:hover {
+	color: #545454;
+}
+
 
 
 /****Content****/
@@ -166,12 +178,12 @@ a {
 	text-transform: uppercase;
 	font-family: 'Oswald', sans-serif;
 	font-weight: 600;
+	color: #545454;
 }
 
 /*About Section*/
 #about {
 	vertical-align: text-top;
-	margin-bottom: 5%;
 }
 
 .about-blurb {
@@ -189,13 +201,10 @@ a {
 .about-blurb img {
 	width: 100%;
 	height: auto;
+	min-height: 250px;
 }
 
 /*Experience Section*/
-#experience {
-	
-}
-
 #experience  h2 {
 	margin-top: 0;
 	margin-bottom: 0;
@@ -212,11 +221,38 @@ a {
 }
 
 /*Projects Section*/
-#projects {
-	
+.project-ss-sp {
+	background-image: url("../images/colonies-ss.png");
+	background-size: 100%;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+}
+
+.project-ss-sp img {
+	-webkit-transition: opacity .3s ease-out;
+    	-moz-transition: opacity .3s ease-out;
+    	-o-transition: opacity .3s ease-out;
+    	transition: opacity .3s ease-out;
+}
+
+.project-ss-sp img:hover {
+	opacity: 0;
+}
+
+#projects  h2 {
+	margin-top: 0;
+	margin-bottom: 0;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+
+#projects a {
+	color: #000;
 }
 
 /*Contact Section*/
-#contact {
-	
+.contact-sec {
+	width: 75%;
+	margin: 0 auto 0 0;
 }
